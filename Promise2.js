@@ -17,7 +17,7 @@ function failure(b){
 }
 
 function executePromise(){
-    let result = PromiseMe(3000, "Suraj Kumar");
+    let result = PromiseMe(3000, "async await handle error by then and catch");
     result.then(success).catch(failure);
 }
 executePromise();

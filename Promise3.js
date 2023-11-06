@@ -18,9 +18,9 @@ function PromiseMe(time, data){
 
 
   async function executePromise(){
-    let result = await PromiseMe(4000,"Welcome to promises topic");
+    let result = await PromiseMe(4000,"Welcome to promises topic ");
     console.log(result);
-    document.getElementById("para2").innerHTML = result;
+    document.getElementById("para3").innerHTML = result;
   }
   
 //   function executePromise(){
